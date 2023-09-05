@@ -1,0 +1,10 @@
+irk.local:
+  hostname: irk.local
+  rbenv:
+    global: 3.2.2
+    versions:
+      - 3.2.2
+  itamae:
+    - roles/basic.rb
+    - roles/dev.rb
+    - roles/iot-server.rb
